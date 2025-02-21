@@ -1,0 +1,62 @@
+{
+  "metrics": {
+    "criticalVulnerabilities": "24",
+    "criticalTrend": "+12% vs mes anterior",
+    "affectedSystems": "8",
+    "criticalSystems": "3 críticos",
+    "totalVulnerabilities": "117",
+    "totalTrend": "+15% vs mes anterior"
+  },
+  "riskLevels": [
+    {
+      "label": "Infraestructura",
+      "value": 78,
+      "icon": "server"
+    },
+    {
+      "label": "Aplicaciones Web",
+      "value": 65,
+      "icon": "globe"
+    },
+    {
+      "label": "Endpoints",
+      "value": 45,
+      "icon": "laptop"
+    }
+  ],
+  "threats": [
+    {
+      "label": "Ransomware",
+      "value": 92,
+      "icon": "virus"
+    },
+    {
+      "label": "Phishing",
+      "value": 74,
+      "icon": "envelope"
+    },
+    {
+      "label": "Malware",
+      "value": 45,
+      "icon": "bug"
+    }
+  ],
+  "summary": [
+    {
+      "icon": "lock",
+      "text": "Actualmente las vulnerabilidades críticas detectadas en tecnologías registran un aumento respecto a meses previos."
+    },
+    {
+      "icon": "virus",
+      "text": "La amenaza con mayor presencia tomando en cuenta el monitoreo realizado por AtalaIA es el Ransomware"
+    },
+    {
+      "icon": "windows",
+      "text": "Los equipos con mayor cantidad de vulnerabilidades y con mayor afectación son los sistemas operativos Windows"
+    },
+    {
+      "icon": "user-shield",
+      "text": "El principal objetivo de los atacantes es lograr el robo de información"
+    }
+  ]
+}
