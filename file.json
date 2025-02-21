@@ -3,8 +3,8 @@
     "criticalVulnerabilities": "24",
     "criticalTrend": "+18 vs mes anterior",
     "affectedSystems": "8",
-    "criticalSystems": "3 críticos",
-    "totalVulnerabilities": "117",
+    "criticalSystems": "7 críticos",
+    "totalVulnerabilities": "121",
     "totalTrend": "+15% vs mes anterior"
   },
   "riskLevels": [
@@ -27,7 +27,7 @@
   "threats": [
     {
       "label": "Ransomware",
-      "value": 92,
+      "value": 75,
       "icon": "virus"
     },
     {
