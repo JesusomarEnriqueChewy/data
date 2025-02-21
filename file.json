@@ -1,7 +1,7 @@
 {
   "metrics": {
     "criticalVulnerabilities": "24",
-    "criticalTrend": "+12% vs mes anterior",
+    "criticalTrend": "+18 vs mes anterior",
     "affectedSystems": "8",
     "criticalSystems": "3 críticos",
     "totalVulnerabilities": "117",
