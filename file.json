@@ -1,26 +1,30 @@
+json
 {
-
-{
-"metrics": {
-"criticalVulnerabilities": 24,
-"criticalTrend": "+12% vs mes anterior",
-"affectedSystems": 8,
-"criticalSystems": "3 críticos",
-"totalVulnerabilities": 117,
-"totalTrend": "+15% vs mes anterior"
-},
-"riskLevels": [
-{ "label": "Infraestructura", "value": 78, "icon": "server" },
-{ "label": "Aplicaciones Web", "value": 65, "icon": "globe" },
-{ "label": "Endpoints", "value": 45, "icon": "laptop" }
-],
-"threats": [
-{ "label": "Ransomware", "value": 92, "icon": "virus" },
-{ "label": "Phishing", "value": 74, "icon": "envelope" },
-{ "label": "Malware", "value": 45, "icon": "bug" }
-],
-"recommendations": [
-{ "icon": "shield-alt", "text": "Planear el desarrollo de un proyecto para la correcta gestión de vulnerabilidades y actualizaciones." },
-{ "icon": "users", "text": "Continuar con capacitaciones de concientización sobre ciberseguridad a todos los usuarios." }
-]
+    "totalVulnerabilities": 145,
+    "riskLevel": 75,
+    "areas": {
+        "infrastructure": 65,
+        "webApps": 82,
+        "endpoints": 45
+    },
+    "threats": [
+        {
+            "name": "Ransomware",
+            "level": 85
+        },
+        {
+            "name": "Phishing",
+            "level": 72
+        },
+        {
+            "name": "Malware",
+            "level": 68
+        }
+    ],
+    "recommendations": [
+        "Implementar autenticación de doble factor en todos los sistemas críticos",
+        "Actualizar y parchear todos los sistemas operativos y aplicaciones",
+        "Realizar backups diarios encriptados de datos críticos",
+        "Implementar monitoreo 24/7 de la infraestructura"
+    ]
 }
